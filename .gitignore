@@ -1,0 +1,106 @@
+# MATLAB/Simulink generated files
+*.mdl.rpt
+*.slx.rpt
+*.slprj/
+*.mdl.autosave
+*.slx.autosave
+slprj/
+codegen/
+*.mex*
+*.p
+*.mexw*
+*.mexa64*
+*.mexmaci64*
+*.mexlinux*
+*.mexarm*
+*.mexa64
+*.mat
+
+# MATLAB temporary files
+*.asv
+*.mat
+*.log
+*.out
+*.err
+*.prj
+*.fig
+*.mlx
+*.mlapp
+*.mltbx
+*.mlpackage
+
+# MATLAB path definitions
+pathdef.m
+
+# Simulink cache files
+*.slxc
+
+# MATLAB installation files
+*.mex
+*.mlpkginstall
+
+# MATLAB Coder generated files
+*.c
+*.cpp
+*.h
+*.hpp
+*.lib
+*.obj
+*.o
+*.exe
+*.dll
+*.a
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.old
+*.backup
+
+# Build files
+build/
+dist/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# C++ generated files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Git ignore specific files for this project
+all.txt
