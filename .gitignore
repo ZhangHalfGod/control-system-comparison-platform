@@ -39,17 +39,27 @@ pathdef.m
 *.mex
 *.mlpkginstall
 
-# MATLAB Coder generated files
-*.c
-*.cpp
-*.h
-*.hpp
-*.lib
-*.obj
-*.o
-*.exe
-*.dll
-*.a
+# MATLAB Coder generated files - only ignore files in specific generated directories
+codegen/**/*.c
+codegen/**/*.cpp
+codegen/**/*.h
+codegen/**/*.hpp
+codegen/**/*.lib
+codegen/**/*.obj
+codegen/**/*.o
+codegen/**/*.exe
+codegen/**/*.dll
+codegen/**/*.a
+slprj/**/*.c
+slprj/**/*.cpp
+slprj/**/*.h
+slprj/**/*.hpp
+slprj/**/*.lib
+slprj/**/*.obj
+slprj/**/*.o
+slprj/**/*.exe
+slprj/**/*.dll
+slprj/**/*.a
 
 # OS generated files
 .DS_Store
