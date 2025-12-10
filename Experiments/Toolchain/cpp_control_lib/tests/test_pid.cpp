@@ -5,7 +5,8 @@
 int main() {
     printf("PID Test\n");
     
-    PIDController pid(2.0, 1.0, 0.5, 0.01);
+    // PIDController pid(2.0, 1.0, 0.5, 0.01);
+    IncrementalPIDController pid(2.0, 1.0, 0.5, 0.01);
     
     double setpoint = 1.0;
     double process_val = 0.0;

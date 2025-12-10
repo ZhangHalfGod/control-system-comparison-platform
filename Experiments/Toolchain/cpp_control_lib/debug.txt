@@ -1,0 +1,166 @@
+重新生成开始于 11:09...
+1>------ 已启动全部重新生成: 项目: ZERO_CHECK, 配置: Debug x64 ------
+1>1>Checking Build System
+2>------ 已启动全部重新生成: 项目: cpp_control_lib, 配置: Debug x64 ------
+2>Building Custom Rule D:/trae_git/Simulink_test/Matlab_Experiment/Experiments/Toolchain/cpp_control_lib/CMakeLists.txt
+2>pid_controller.cpp
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,5): error C2059: 语法错误:“:”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,10): error C2065: “kp_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,22): error C2065: “ki_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,34): error C2065: “kd_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,46): error C2065: “dt_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,63): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,70): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,78): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,85): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,92): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(6,1): error C2059: 语法错误:“{”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(6,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(6,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(9,8): error C2653: “PIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(14,26): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(21,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(22,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(27,6): error C2653: “PIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(29,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(30,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(31,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,5): error C2059: 语法错误:“:”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,10): error C2065: “kp_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,7): error C2374: “kp”: 重定义；多次初始化
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,7):
+2>    参见“kp”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,7): error C2086: “int kp”: 重定义
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,7):
+2>    参见“kp”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,22): error C2065: “ki_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,19): error C2374: “ki”: 重定义；多次初始化
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,19):
+2>    参见“ki”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,19): error C2086: “int ki”: 重定义
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,19):
+2>    参见“ki”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,34): error C2065: “kd_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,31): error C2374: “kd”: 重定义；多次初始化
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,31):
+2>    参见“kd”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,31): error C2086: “int kd”: 重定义
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,31):
+2>    参见“kd”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,46): error C2065: “dt_val”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,43): error C2374: “dt”: 重定义；多次初始化
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,43):
+2>    参见“dt”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,43): error C2086: “int dt”: 重定义
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(5,43):
+2>    参见“dt”的声明
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,64): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,71): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(35,80): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(36,1): error C2059: 语法错误:“{”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(36,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(36,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(39,8): error C2653: “IncrementalPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(39,34): error C2084: 函数“double compute(double,double)”已有主体
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(9,23):
+2>    参见“compute”的前一个定义
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(45,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(50,6): error C2653: “IncrementalPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(50,32): error C2084: 函数“void reset(void)”已有主体
+2>    D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(27,21):
+2>    参见“reset”的前一个定义
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(52,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(53,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(58,1): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(58,21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(60,1): error C2550: “FuzzyPIDController”: 构造函数初始值设定项列表只能在构造函数定义中使用
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(95,13): error C2065: “delta_kp_rules”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(96,13): error C2065: “delta_ki_rules”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(97,13): error C2065: “delta_kd_rules”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(100,1): warning C4508: “FuzzyPIDController”: 函数应返回一个值；假定“void”返回类型
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(102,8): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(107,6): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(107,62): error C2061: 语法错误: 标识符“FuzzyVariable”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(110,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(110,21): error C2065: “NB”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(111,5): error C2181: 没有匹配 if 的非法 else
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(112,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(112,21): error C2065: “NM”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(114,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(114,21): error C2065: “NS”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(116,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(116,21): error C2065: “ZO”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(118,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(118,21): error C2065: “PS”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(120,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(120,21): error C2065: “PM”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(122,9): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(122,21): error C2065: “PB”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(126,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(126,25): error C2065: “NB”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(128,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(128,25): error C2065: “NM”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(130,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(130,25): error C2065: “NS”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(132,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(132,25): error C2065: “ZO”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(134,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(134,25): error C2065: “PS”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(136,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(136,25): error C2065: “PM”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(138,9): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(138,25): error C2065: “PB”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(141,6): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(141,40): error C2065: “FuzzyVariable”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(141,54): error C2146: 语法错误: 缺少“)”(在标识符“fuzzy_err”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(142,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(142,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(152,8): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(152,38): error C2065: “FuzzyVariable”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(152,52): error C2146: 语法错误: 缺少“)”(在标识符“fuzzy_value”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(153,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(153,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(157,8): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(162,8): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(170,18): error C2065: “err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(170,27): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(170,38): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(173,5): error C2065: “FuzzyVariable”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(173,19): error C2146: 语法错误: 缺少“;”(在标识符“delta_kp”的前面)
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(173,19): error C2065: “delta_kp”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(173,29): error C2065: “delta_ki”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(173,39): error C2065: “delta_kd”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,19): error C2065: “fuzzy_err”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,30): error C2065: “fuzzy_err_dot”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,45): error C2065: “delta_kp”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,55): error C2065: “delta_ki”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,65): error C2065: “delta_kd”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(174,5): error C3861: “getFuzzyRules”: 找不到标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(181,28): error C2065: “delta_kp”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(181,18): error C3861: “defuzzify”: 找不到标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(182,28): error C2065: “delta_ki”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(182,18): error C3861: “defuzzify”: 找不到标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(183,28): error C2065: “delta_kd”: 未声明的标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(183,18): error C3861: “defuzzify”: 找不到标识符
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(192,34): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(199,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(204,6): error C2653: “FuzzyPIDController”: 不是类或命名空间名称
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(206,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(207,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(208,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(212,5): error C2059: 语法错误:“:”
+2>D:\trae_git\Simulink_test\Matlab_Experiment\Experiments\Toolchain\cpp_control_lib\src\pid_controller.cpp(212,5): error C1003: 错误计数超过 100；正在停止编译
+2>已完成生成项目“cpp_control_lib.vcxproj”的操作 - 失败。
+========== 全部重新生成: 1 成功，1 失败，0 已跳过 ==========
+========== 重新生成 于 11:09 完成，耗时 00.818 秒 ==========

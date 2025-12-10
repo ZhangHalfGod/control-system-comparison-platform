@@ -20,10 +20,14 @@ add_library(${PROJECT_NAME} STATIC ${SOURCES})
 
 # 测试可执行文件
 add_executable(test_pid tests/test_simple.cpp)
+add_executable(test_all_controllers tests/test_all_controllers.cpp)
+add_executable(test_all_controllers_simple tests/test_all_controllers_simple.cpp)
 
 # 链接测试可执行文件与库
 target_link_libraries(test_pid PRIVATE ${PROJECT_NAME})
+target_link_libraries(test_all_controllers PRIVATE ${PROJECT_NAME})
+target_link_libraries(test_all_controllers_simple PRIVATE ${PROJECT_NAME})
 
 # 设置安装规则
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
-install(FILES include/pid_controller.hpp DESTINATION include)
+install(FILES include/controller_base.hpp include/pid_controller.hpp DESTINATION include)
