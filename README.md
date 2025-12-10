@@ -4,8 +4,28 @@
 
 基于直流电机模型的状态反馈与输出反馈对比实验平台，使用 MATLAB/Simulink R2024a 开发，实现了多种控制策略的性能对比分析。
 
+### 分支开发策略
 
-目前是按照Develop分支开发，后续会迁移到Main分支。 先develop然后是feature的各个功能单独开发，最后合并feature的各个功能到develop分支在合并到main分支。
+| 分支类型 | 分支名称 | 创建状态 | 完成进度 | 作用 |
+| :------- | :------- | :------- | :------- | :--- |
+| 主分支 | master | ✅ 已创建 | ✅ 已完成 | 稳定版本发布分支 |
+| 开发分支 | develop | ✅ 已创建 | ✅ 已完成 | 集成所有功能开发的主分支 |
+| 功能分支 | feature/math-foundations | ✅ 已创建 | 🔄 进行中 | 数学基础强化实验 |
+| 功能分支 | feature/control-theory | ✅ 已创建 | ✅ 部分完成 | 控制理论实践实验 |
+| 功能分支 | feature/fuzzy-pid | ✅ 已创建 | ⏳ 待开始 | 模糊PID控制器实现 |
+| 功能分支 | feature/impedance-control | ✅ 已创建 | ⏳ 待开始 | 阻抗控制实现 |
+| 功能分支 | feature/adaptive-control | ✅ 已创建 | ⏳ 待开始 | 自适应控制实现 |
+| 功能分支 | feature/mpc | ✅ 已创建 | ⏳ 待开始 | MPC实现 |
+| 功能分支 | feature/matlab-simulink | ✅ 已创建 | ⏳ 待开始 | MATLAB/Simulink深度使用 |
+| 功能分支 | feature/cpp-eigen | ✅ 已创建 | ⏳ 待开始 | C++/Eigen控制算法库搭建 |
+| 功能分支 | feature/rk3588 | ✅ 已创建 | ⏳ 待开始 | RK3588开发环境搭建 |
+
+### 分支开发流程
+
+1. 从 `develop` 分支创建功能分支 `feature/xxx`
+2. 在功能分支上完成开发和测试
+3. 合并到 `develop` 分支进行集成测试
+4. 最终从 `develop` 分支合并到 `master` 分支发布稳定版本
 
 ### 核心目标
 
