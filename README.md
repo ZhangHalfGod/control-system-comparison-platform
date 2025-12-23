@@ -14,7 +14,7 @@
 | 功能分支 | feature/control-theory | ✅ 已创建 | ✅ 部分完成 | 控制理论实践实验 |
 | 功能分支 | feature/fuzzy-pid | ✅ 已创建 | ✅ 已完成 | 模糊PID控制器实现 |
 | 功能分支 | feature/impedance-control | ✅ 已创建 | ✅ 已完成 | 阻抗控制实现 |
-| 功能分支 | feature/adaptive-control | ✅ 已创建 | ⏳ 待开始 | 自适应控制实现 |
+| 功能分支 | feature/adaptive-control | ✅ 已创建 | ✅ 已完成 | 自适应控制实现 |
 | 功能分支 | feature/mpc | ✅ 已创建 | ⏳ 待开始 | MPC实现 |
 | 功能分支 | feature/matlab-simulink | ✅ 已创建 | ⏳ 待开始 | MATLAB/Simulink深度使用 |
 | 功能分支 | feature/cpp-eigen | ✅ 已创建 | ⏳ 待开始 | C++/Eigen控制算法库搭建 |
